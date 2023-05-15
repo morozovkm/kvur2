@@ -1,4 +1,4 @@
-import math
+from math import sqrt
 
 baddata = True
 while baddata == True:
@@ -13,7 +13,7 @@ while baddata == True:
 D = (b * b) - (4 * a * c)
 
 if D > 0:
-    d = math.sqrt(D)
+    d = sqrt(D)
     X1 = ((-b) + d) / (2*a)
     X2 = ((-b) - d) / (2 * a)
     print(f'Уравнение имеет два корня X1 = {X1}, X2 = {X2}.')
