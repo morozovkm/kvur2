@@ -1,5 +1,5 @@
 from math import sqrt
-
+print('12321321321')
 baddata = True
 while baddata:
     try:
