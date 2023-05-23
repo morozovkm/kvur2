@@ -1,5 +1,6 @@
 from math import sqrt
-print('Решим квадратное уравнение!!!')
+print('Решим квадратное уравнение!!! Ура!!!')
+
 baddata = True
 while baddata:
     try:
